@@ -2,12 +2,17 @@ div {
 	position: absolute;
 }
 
+body {
+background-color: black;
+}
+
+
 .r{
  	
 }
 
 .r1{
-  top: 102px;
+  top: 101px;
   left: 48px;
   background-color: rgb(110, 203, 209); 
   border-radius: 50%;
@@ -18,31 +23,31 @@ div {
 .r2{
   top: 130px;
   left: 46px; 
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
   width:100px;
   height:170px;
   transform: rotate(-45deg);
 }
 
 .r3{
-  top: 122px;
+  top: 120px;
   left: 73px;
   width: 0px;
   height: 0px;
   border-left: 0px  solid transparent;
   border-right: 190px solid transparent;
-  border-bottom: 190px solid rgb(0, 0, 0);
+  border-bottom: 190px solid rgb(128,121, 178);
    
 }
 
 .r4{
-  top: 212px;
+  top: 210px;
   left: 73px;
   width: 0px;
   height: 0px;
   border-left: 0px  solid transparent;
   border-right: 100px solid transparent;
-  border-bottom: 100px solid rgb(128, 121, 178);
+  border-bottom: 100px solid rgb(255, 255, 255);
 }
 
 .a{
@@ -51,7 +56,7 @@ div {
 
 
 .a1{
-  top: 122px;
+  top: 120px;
   left: 286px;
   width: 0;
   height: 0;
@@ -61,7 +66,7 @@ div {
 }
 
 .a2{
-  top: 192px;
+  top: 190px;
   left: 319px;
   width: 0;
   height: 0;
@@ -71,21 +76,21 @@ div {
 }
 
 .n{
-
+left: 17px;
 }
 
 .n1{
-	top: 122px;
+	top: 120px;
   left: 510px;
   width: 0px;
   height: 0px;
   border-left: 0px  solid transparent;
   border-right: 190px solid transparent;
-  border-bottom: 190px solid rgb(0, 0, 0);
+  border-bottom: 190px solid rgb(255, 255, 255);
 }
 
 .n2{
-  top: 122px;
+  top: 120px;
   left: 510px;
   width: 0px;
   height: 0px;
@@ -96,41 +101,211 @@ div {
 }
 
 .n3{
-  top: 122px;
+  top: 119px;
   left: 660px; 
+  width: 40px;
+  height:191px;
+  background-color: rgb(128, 121, 178);
+}
+
+ 
+
+.g1{
+   top: 90px;
+  left: 750px;
+  background-color: rgb(110, 203, 209); 
+  border-radius: 50%;
+  width:225px;
+  height:225px; 
+}
+
+.g2{
+  top: 0px;
+  left: 762px; 
+  background-color: rgb(0, 0, 0);
+  width:181px;
+  height:250px;
+  transform: rotate(90deg);
+}
+
+
+ .clip1 {
+  top: 400px;
+  left: 50px;
+  width: 100px;
+  height: 208px;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.circle1 {
+  width: 175px;
+  height: 175px;
+  border: 4px solid rgb(128, 121, 178);
+  background-color: rgb(128, 121, 178);
+  border-radius: 50%;
+}
+
+.topg{
+  top:74px;
+  left:1341px;
+  transform: rotate(90deg);
+}
+
+
+.g3{
+  top: 174px;
+  left: 851px; 
+  width: 40px;
+  height: 140px;
+  background-color: rgb(255, 255, 255);
+  transform: rotate(90deg);
+
+}
+
+.e{
+top: 10px;
+left: 20px;
+}
+
+.e1{
+  top: 120px;
+  left: 1000px;
+  width: 189px;
+  height: 189px;
+  background-color:rgb(110, 203, 209);
+}
+
+.e2{
+  top: 120px;
+  left: 1000px; 
   width: 40px;
   height:190px;
   background-color: rgb(128, 121, 178);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.boxA{
-	
-	width: 200px;
-	height: 200px;
-	top: 50px;
-	left: 50px;
+.e3{
+  top: 196px;
+  left: 1075px; 
+  width: 40px;
+  height:189px;
+  background-color: rgb(128, 121, 178);
+  transform: rotate(90deg);
 }
 
-.boxB{
-	
-	width: 200px;
-	height: 200px;
-	top: 50px;
-	left: 400px;
-} */
+.e4{
+  top: 163px;
+  left: 1050px; 
+  width: 40px;
+  height:140px;
+  background-color: rgb(255, 255, 255);
+  transform: rotate(90deg);
+}
+
+.e5{
+  top: 44px;
+  left: 1075px; 
+  width: 40px;
+  height:189px;
+  background-color: rgb(255, 255, 255);
+  transform: rotate(90deg);
+
+}
+
+.s{
+left: -55px;
+top: 4px;
+}
+
+
+.bots{
+    top: 527px;
+    left: 1455px;
+    transform: rotate(-120deg);
+}
+
+.clip2 {
+  top: 10px;
+  left: 200px;
+  width: 100px;
+  height: 208px;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.circle2 {
+  width: 175px;
+  height: 175px;
+  border: 4px solid rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  border-radius: 50%;
+}
+
+.tops{
+    top: -93px;
+    left: 1370px;
+    transform: rotate(60deg);
+}
+
+.clip3 {
+  top: 10px;
+  left: 200px;
+  width: 80px;
+  height: 190px;
+  background-color: transparent;
+  overflow: hidden;
+}
+
+.circle3 {
+  width: 150px;
+  height: 150px;
+  border: 4px solid rgb(128, 121, 178);
+  background-color: rgb(128, 121, 178);
+  border-radius: 50%;
+} 
+
+.para{
+  color:white;
+  top: 500px;
+  left: 80px;
+  width: 450px;
+  font-family: Helvetica, Arial;
+  font-weight:400;
+  font-size: 18px;
+  line-height: 25px;
+
+}
+.lineo{
+top:400px;
+left: 75px;
+width:1350px;
+height: 2px;
+background-color: white;
+}
+
+.linep{
+top:410px;
+left: 75px;
+width:1350px;
+height: 2px;
+background-color:rgb(128, 121, 178);
+}
+
+.lineq{
+top:420px;
+left: 75px;
+width:1350px;
+height: 2px;
+background-color:rgb(110,203, 209);
+}
+
+
+
+
+
+
+
+
+
 
 
