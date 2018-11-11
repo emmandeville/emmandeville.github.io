@@ -4,159 +4,275 @@
 	left: 0;
 	width: 100vw;
 	height:100vh;
-	background-image: url('background.gif'); 
+	background-image: url('background.gif');
   background-color: black;
-	background-size: cover;
-	
-}
+	background-size: cover; }
  
-
-/*
-}
-.outline{
-	position: absolute;
-	top: 6vw;
-  	left: 6vw;
-	width: 87vw;
-  	height: 45vw;
- 	border: 2px solid rgb(255, 255, 255);
-}
-*/ 
 
 .title {
   position: absolute;
-  top: 110px;
+  top: 85px;
   left: 10vw;
   width: 800px;
-  line-height: 115px;
+  line-height: 125px;
   font-size: 11vw;
   color: rgb(255,255,255);
   font-family: Expletus Sans, Helvetica;
-  font-weight: bold;
-}
+  font-weight: bold; }
 
 
 .date {
 	position: absolute;
-  top: 340px;
-  left: 23vw;
-  font-size: 2.5vw;
+  top: 335px;
+  left: 11vw;
+  font-size: 2.25vw;
   color: rgb(255,255,255);
-  font-family: Ubuntu, Helvetica;
-
-  
-}
+  font-family: Ubuntu, Helvetica; }
 
 .quote{
 	position: absolute;
-  top: 300px;
-  left: 64vw;
-  width: 350px;
-  font-size: 2.5vw;
+  top: 335px;
+  left: 800px;
+  width: 275px;
+  font-size: 25px;
   color: rgb(255,255,255);
   font-family: Ubuntu, Helvetica;
-  font-style: italic;
-}
+  font-style: italic; }
 
 .place{
 	position: absolute;
-  top: 400px;
-  left: 64vw;
-  width: 350px;
-  font-size: 2.5vw;
+  top: 560px;
+  left: 180px;
+  
+  font-size: 25px;
   color: rgb(255,255,255);
   font-family: Ubuntu, Helvetica;
-}
+  font-style: italic; }
 
 .address{
 	position: absolute;
-  top: 500px;
-  left: 64vw;
-  width: 240px;
-  font-size: 1.5vw;
+  top: 430px;
+  left: 800px;
+  width: 275px;
+  font-size: 20px;
   color: rgb(255,255,255);
-  font-family: Ubuntu, Helvetica;
- 
-}
+  font-family: Ubuntu, Helvetica; }
+
+.nyny{
+  position: absolute;
+  top: 478px;
+  left: 800px;
+  width: 275px;
+  font-size: 20px;
+  color: rgb(255,255,255);
+  font-family: Ubuntu, Helvetica; }
 
 .hours{
 	position: absolute;
-  top: 485px;
-  left: 45vw;
-  width: 117px;
-  font-size: 1.5vw;
+  top: 520px;
+  left: 800px;
+  width:135px;
+  font-size: 20px;
   color: rgb(255,255,255);
-  font-family: Ubuntu, Helvetica;
-}
+  font-family: Ubuntu, Helvetica; }
+
+.hourstwo{
+  position: absolute;
+  top: 568px;
+  left: 800px;
+
+  font-size: 20px;
+  color: rgb(255,255,255);
+  font-family: Ubuntu, Helvetica; }
 
 .button{
+  position: absolute;
+  top: 422px;
+  left: 10vw; } 
 
-position: absolute;
-  top: 482px;
-  left: 10vw;
-}
-
-@media (max-width: 1060px) {
-  .title{
-    width: 300px; }
-  .quote{
-    width: 300px;}
-  .place{
-    width: 300px;}
-}
-
-@media (max-width: 1030px) {
-  .title{
-    width: 300px; }
-  .quote{
-    width: 250px;}
-  .place{
-    width: 250px;}
-}
+.logo{
+  position: absolute;
+  top:545px;
+  left:110px; }
 
 
-@media (max-width: 500px) {
+@media (max-width: 1070px) {
 .title{
-  font-size: 19vw;
+  font-size: 11vw;
   width: 200px;
-  line-height: 72px; 
+  line-height: 105px; 
+  top: 80px;  }
+
+.date{
+  font-size: 2.5vw;
+  top:285px;
+  left: 11vw; }
+
+.quote{
+  font-size: 3vw;
+  width: 250px;
+  left: 11vw;
+  top: 355px; }
+
+.place{
+  font-size: 3vw;
+  left: 164px;
+  top: 600px;
+  width:800px;
+  }
+
+.logo{
+  left: 9vw;
+  top: 590px;}
+
+.address{
+  font-size: 2.5vw;
+  width: 215px;
+  left:40vw;
+  top:355px;}
+
+.nyny{
+  font-size: 2.5vw;
+  width: 200px;
+  left:40vw;
+  top:447px; }
+
+.hours{
+  font-size: 2.5vw;
+  width: 180px;
+  left: 66vw;
+  top: 355px; }
+
+.hourstwo{
+  font-size: 2.5vw;
+  width: 200px;
+  left: 66vw;
+  top: 417px; }
+
+.button{
+  top:555px;
+  left: 725px; }
+
+}
+
+
+@media (max-width: 711px) {
+.title{
+  font-size: 13vw;
+  width: 200px;
+  line-height: 80px; 
+  top: 80px;  }
+
+.date{
+  font-size: 3.5vw;
+  top:245px;
+  left: 11vw; }
+
+.quote{
+  font-size: 3.5vw;
+  width: 250px;
+  left: 11vw;
+  top: 325px; }
+
+.place{
+  font-size: 3.5vw;
+  left: 150px;
+  top: 592px;
+  width:600px;
+  }
+
+.logo{
+  left: 9vw;
+  top: 580px;}
+
+.address{
+  font-size: 2.5vw;
+  width: 125px;
+  left:60vw;
+  top:330px;}
+
+.nyny{
+  font-size: 2.5vw;
+  width: 200px;
+  left:60vw;
+  top:385px; }
+
+.hours{
+  font-size: 2.5vw;
+  width: 110px;
+  left: 60vw;
+  top: 445px; }
+
+.hourstwo{
+  font-size: 2.5vw;
+  width: 200px;
+  left: 60vw;
+  top: 482px; }
+
+.button{
+  top:425px;
+  left: 52px; }
+
+}
+
+
+
+@media (max-width: 415px) {
+.title{
+  font-size: 90px;
+  width: 200px;
+  line-height: 84px; 
   top: 80px;  }
 
 .date{
   font-size: 5vw;
-  top:225px;
+  top:245px;
   left: 12vw; }
 
 .quote{
   font-size: 5vw;
-  width: 200px;
-  left: 12vw; }
+  width: 100px;
+  left: 11vw;
+  top: 300px; }
 
 .place{
-  font-size: 5vw;
-  width: 150px;
-  left: 60vw;
-  top: 400px;
-  line-height: 20px }
+  font-size: 4vw;
+  left: 105px;
+  top:622px;
+  width:600px; }
+
+.logo{
+  left: 9vw;
+  top: 600px; }
 
 .address{
-  font-size: 3vw;
-  width: 123px;
+  font-size: 3.5vw;
+  width: 110px;
   left:60vw;
-  top:475px;}
+  top:300px; }
+
+.nyny{
+  font-size: 3.5vw;
+  width: 130px;
+  left:60vw;
+  top:350px; }
 
 .hours{
-  font-size: 3vw;
-  width: 123px;
+  font-size: 3.5vw;
+  width: 90px;
   left: 60vw;
-  top: 550px;
-}
+  top: 462px; }
+
+.hourstwo{
+  font-size: 3.5vw;
+  width: 200px;
+  left: 60vw;
+  top:494px; }
 
 .button{
-  top:512px;
-}
-
-}
+  top:450px;
+  left: 35px;
+  transform: scale(1.1); }
 
 }
 
