@@ -23,9 +23,8 @@
   }
 
 .title:hover {
-  left: 12vw;
-  opacity: .65;
-  transform: scale(1.1);
+ 
+  opacity: .40;
   transition: all 0.001s ease-in-out;}
 
 .date {
@@ -39,7 +38,7 @@
 
 .quote{
 	position: absolute;
-  top: 205px;
+  top: 202px;
   left: 800px;
   width: 275px;
   font-size: 25px;
@@ -61,7 +60,7 @@
 
 .address{
 	position: absolute;
-  top: 315px;
+  top: 318px;
   left: 800px;
   width: 275px;
   font-size: 20px;
@@ -70,7 +69,7 @@
 
 .nyny{
   position: absolute;
-  top: 363px;
+  top: 366px;
   left: 800px;
   width: 275px;
   font-size: 20px;
@@ -101,8 +100,8 @@
   left: 788px; } 
 
 .button:hover{
-  transform: scale(1.4);
-  transition: all 0.2s ease-in-out
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
 }
 
 .logo{
@@ -110,7 +109,10 @@
   top:575px;
   left:107px; }
 
-
+.logo:hover{
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+}
 
 
 @media (max-width: 1070px) {
