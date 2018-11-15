@@ -12,88 +12,105 @@
 .title {
   position: absolute;
   top: 85px;
-  left: 10vw;
+  left: 9vw;
   width: 800px;
-  line-height: 125px;
-  font-size: 11vw;
+  line-height: 120px;
+  font-size: 10vw;
   color: rgb(255,255,255);
   font-family: Expletus Sans, Helvetica;
-  font-weight: bold; }
+  font-weight: ; 
+  letter-spacing: 7px;
+  }
 
+.title:hover {
+  left: 12vw;
+  opacity: .65;
+  transform: scale(1.1);
+  transition: all 0.001s ease-in-out;}
 
 .date {
 	position: absolute;
-  top: 335px;
-  left: 11vw;
+  top: 317px;
+  left: 10vw;
   font-size: 2.25vw;
   color: rgb(255,255,255);
-  font-family: Ubuntu, Helvetica; }
+  font-family: Lato , Helvetica;
+  font-weight:   }
 
 .quote{
 	position: absolute;
-  top: 335px;
+  top: 205px;
   left: 800px;
   width: 275px;
   font-size: 25px;
   color: rgb(255,255,255);
-  font-family: Ubuntu, Helvetica;
-  font-style: italic; }
+  font-family: Expletus Sans , Helvetica;
+  font-style:italic;
+  }
 
 .place{
 	position: absolute;
-  top: 560px;
-  left: 180px;
+  top: 590px;
+  left: 173px;
   
   font-size: 25px;
   color: rgb(255,255,255);
-  font-family: Ubuntu, Helvetica;
-  font-style: italic; }
+  font-family: Lato, Helvetica;
+   ;
+  }
 
 .address{
 	position: absolute;
-  top: 430px;
+  top: 315px;
   left: 800px;
   width: 275px;
   font-size: 20px;
   color: rgb(255,255,255);
-  font-family: Ubuntu, Helvetica; }
+  font-family: Lato, Helvetica; }
 
 .nyny{
   position: absolute;
-  top: 478px;
+  top: 363px;
   left: 800px;
   width: 275px;
   font-size: 20px;
   color: rgb(255,255,255);
-  font-family: Ubuntu, Helvetica; }
+  font-family: Lato, Helvetica; }
 
 .hours{
 	position: absolute;
-  top: 520px;
+  top: 425px;
   left: 800px;
   width:135px;
   font-size: 20px;
   color: rgb(255,255,255);
-  font-family: Ubuntu, Helvetica; }
+  font-family: Lato, Helvetica; }
 
 .hourstwo{
   position: absolute;
-  top: 568px;
+  top: 473px;
   left: 800px;
 
   font-size: 20px;
   color: rgb(255,255,255);
-  font-family: Ubuntu, Helvetica; }
+  font-family: Lato, Helvetica; }
 
 .button{
   position: absolute;
-  top: 422px;
-  left: 10vw; } 
+  top: 537px;
+  left: 788px; } 
+
+.button:hover{
+  transform: scale(1.4);
+  transition: all 0.2s ease-in-out
+}
 
 .logo{
   position: absolute;
-  top:545px;
-  left:110px; }
+  top:575px;
+  left:107px; }
+
+
 
 
 @media (max-width: 1070px) {
@@ -106,13 +123,13 @@
 .date{
   font-size: 2.5vw;
   top:285px;
-  left: 11vw; }
+  left: 10vw; }
 
 .quote{
   font-size: 3vw;
-  width: 250px;
-  left: 11vw;
-  top: 355px; }
+  width: 600px;
+  left: 10vw;
+  top: 340px; }
 
 .place{
   font-size: 3vw;
@@ -126,32 +143,33 @@
   top: 590px;}
 
 .address{
-  font-size: 2.5vw;
-  width: 215px;
+  font-size: 2vw;
+  width: 160px;
   left:40vw;
-  top:355px;}
+  top:425px;}
 
 .nyny{
-  font-size: 2.5vw;
+  font-size: 2vw;
   width: 200px;
   left:40vw;
-  top:447px; }
+  top:501px; }
 
 .hours{
-  font-size: 2.5vw;
-  width: 180px;
+  font-size: 2vw;
+  width: 140px;
   left: 66vw;
-  top: 355px; }
+  top: 450px; }
 
 .hourstwo{
-  font-size: 2.5vw;
+  font-size: 2vw;
   width: 200px;
   left: 66vw;
-  top: 417px; }
+  top: 501px; }
 
 .button{
-  top:555px;
-  left: 725px; }
+  top:453px;
+  left: 13vw;
+  transform: scale(1.4); }
 
 }
 
@@ -160,24 +178,24 @@
 .title{
   font-size: 13vw;
   width: 200px;
-  line-height: 80px; 
+  line-height: 85px; 
   top: 80px;  }
 
 .date{
   font-size: 3.5vw;
-  top:245px;
-  left: 11vw; }
+  top:250px;
+  left: 10vw; }
 
 .quote{
   font-size: 3.5vw;
   width: 250px;
-  left: 11vw;
-  top: 325px; }
+  left: 10vw;
+  top: 323px; }
 
 .place{
   font-size: 3.5vw;
-  left: 150px;
-  top: 592px;
+  left: 131px;
+  top: 597px;
   width:600px;
   }
 
@@ -187,9 +205,9 @@
 
 .address{
   font-size: 2.5vw;
-  width: 125px;
+  width: 130px;
   left:60vw;
-  top:330px;}
+  top:322px;}
 
 .nyny{
   font-size: 2.5vw;
@@ -201,17 +219,17 @@
   font-size: 2.5vw;
   width: 110px;
   left: 60vw;
-  top: 445px; }
+  top: 460px; }
 
 .hourstwo{
   font-size: 2.5vw;
   width: 200px;
   left: 60vw;
-  top: 482px; }
+  top: 503px; }
 
 .button{
-  top:425px;
-  left: 52px; }
+  top:450px;
+  left: 14vw; }
 
 }
 
@@ -219,43 +237,43 @@
 
 @media (max-width: 415px) {
 .title{
-  font-size: 90px;
+  font-size: 73px;
   width: 200px;
-  line-height: 84px; 
-  top: 80px;  }
+  line-height: 80px; 
+  top: 125px;  }
 
 .date{
   font-size: 5vw;
-  top:245px;
-  left: 12vw; }
+  top:280px;
+  left: 11vw; }
 
 .quote{
   font-size: 5vw;
-  width: 100px;
+  width: 200px;
   left: 11vw;
-  top: 300px; }
+  top: 350px; }
 
 .place{
   font-size: 4vw;
-  left: 105px;
-  top:622px;
-  width:600px; }
+  left: 95px;
+  top:60px;
+  width:200px; }
 
 .logo{
-  left: 9vw;
-  top: 600px; }
+  left: 7vw;
+  top: 50px; }
 
 .address{
   font-size: 3.5vw;
   width: 110px;
-  left:60vw;
-  top:300px; }
+  top:445px;
+  left: 11vw; }
 
 .nyny{
   font-size: 3.5vw;
   width: 130px;
-  left:60vw;
-  top:350px; }
+  left:11vw;
+  top:497px; }
 
 .hours{
   font-size: 3.5vw;
@@ -267,12 +285,12 @@
   font-size: 3.5vw;
   width: 200px;
   left: 60vw;
-  top:494px; }
+  top:496px; }
 
 .button{
-  top:450px;
-  left: 35px;
-  transform: scale(1.1); }
+  top:600px;
+  left: 19vw;
+  transform: scale(1.4); }
 
 }
 
