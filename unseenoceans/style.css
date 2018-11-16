@@ -11,7 +11,7 @@
 
 .title {
   position: absolute;
-  top: 85px;
+  top: 75px;
   left: 9vw;
   width: 800px;
   line-height: 120px;
@@ -29,7 +29,7 @@
 
 .date {
 	position: absolute;
-  top: 317px;
+  top: 313px;
   left: 10vw;
   font-size: 2.25vw;
   color: rgb(255,255,255);
@@ -38,7 +38,7 @@
 
 .quote{
 	position: absolute;
-  top: 202px;
+  top: 232px;
   left: 800px;
   width: 275px;
   font-size: 25px;
@@ -50,7 +50,7 @@
 .place{
 	position: absolute;
   top: 590px;
-  left: 173px;
+  left: 175px;
   
   font-size: 25px;
   color: rgb(255,255,255);
@@ -60,7 +60,7 @@
 
 .address{
 	position: absolute;
-  top: 318px;
+  top: 321px;
   left: 800px;
   width: 275px;
   font-size: 20px;
@@ -69,7 +69,7 @@
 
 .nyny{
   position: absolute;
-  top: 366px;
+  top: 369px;
   left: 800px;
   width: 275px;
   font-size: 20px;
@@ -107,12 +107,14 @@
 .logo{
   position: absolute;
   top:575px;
-  left:107px; }
+  left:110px; }
 
 .logo:hover{
   transform: scale(1.2);
   transition: all 0.2s ease-in-out;
 }
+
+
 
 
 @media (max-width: 1070px) {
@@ -407,8 +409,8 @@
 
 .button{
   top:600px;
-  left: 19vw;
-  transform: scale(1.4); }
+  left: 29vw;
+  transform: scale(1.8); }
 
 }
 
