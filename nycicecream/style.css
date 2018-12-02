@@ -1,0 +1,70 @@
+.background{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height:100vh;
+	background-image: url('backgroundbox.png');
+  background-color: black;
+	background-size: cover;
+	 }
+/*
+.box{
+	position: absolute;
+	width: 500px;
+	height: 250px;
+	top: 190px;
+	left: 230px;
+	opacity: .85;
+	background-color: white;
+} */
+
+.titleone {
+  position: absolute;
+  top: 210px;
+  left: 200px;
+  width: 800px;
+  line-height: 120px;
+  font-size: 120px;
+  color: rgb(255,255,255);
+  font-family: Abel, Helvetica;
+  font-weight: ; 
+  letter-spacing: 7px;
+  }
+
+  .titletwo {
+  position: absolute;
+  top: 325px;
+  left: 500px;
+  width: 800px;
+  line-height: 120px;
+  font-size: 120px;
+  color: rgb(210,176,220);
+  font-family: Abel, Helvetica;
+  font-weight: ; 
+  letter-spacing: 7px;
+  }
+
+ .buttonlocation{
+  	position: absolute;
+  	top: 550px;
+  	left: 100px;
+
+  }
+
+.buttonprice{
+  	position: absolute;
+  	top: 550px;
+  	left: 852px;
+}
+
+.buttonphotos{
+  	position: absolute;
+  	top: 550px;
+  	left: 459px;
+}
+
+
+
+
+
