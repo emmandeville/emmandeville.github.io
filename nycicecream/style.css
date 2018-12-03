@@ -107,4 +107,15 @@ background-color: rgb(252,217,217);
 background-color: rgb(211,234,217);
 }
 
+.locationbackground{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height:100vh;
+  background-image: url('locationbackground.png');
+  background-size: cover; 
+}
+
+
 
