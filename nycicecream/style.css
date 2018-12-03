@@ -1,70 +1,110 @@
+
+body {
+background-color: rgb(249,244,169);
+}
+
+
 .background{
 	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100vw;
 	height:100vh;
-	background-image: url('backgroundbox.png');
-  background-color: black;
+	background-image: url('backgroundtransparent.png');
 	background-size: cover;
 	 }
-/*
-.box{
-	position: absolute;
-	width: 500px;
-	height: 250px;
-	top: 190px;
-	left: 230px;
-	opacity: .85;
-	background-color: white;
-} */
+
 
 .titleone {
   position: absolute;
   top: 210px;
-  left: 200px;
+  left: 145px;
   width: 800px;
   line-height: 120px;
   font-size: 120px;
   color: rgb(255,255,255);
-  font-family: Abel, Helvetica;
-  font-weight: ; 
+  font-family: 'Nixie One', cursive, Helvetica;
+  font-weight: 5px ; 
   letter-spacing: 7px;
   }
 
   .titletwo {
   position: absolute;
-  top: 325px;
+  top: 330px;
   left: 500px;
   width: 800px;
   line-height: 120px;
   font-size: 120px;
-  color: rgb(210,176,220);
-  font-family: Abel, Helvetica;
+  color: rgb(255,255,255);
+  font-family: 'Nixie One', cursive, Helvetica;
   font-weight: ; 
   letter-spacing: 7px;
   }
 
- .buttonlocation{
+.titlethree {
+  position: absolute;
+  top: 210px;
+  left: 150px;
+  width: 800px;
+  line-height: 120px;
+  font-size: 120px;
+  color: rgb(210,176,220);
+  font-family: 'Nixie One', cursive, Helvetica;
+  font-weight: ; 
+  letter-spacing: 7px;
+  }
+
+  .titlefour {
+  position: absolute;
+  top: 330px;
+  left: 506px;
+  width: 800px;
+  line-height: 120px;
+  font-size: 120px;
+  color: rgb(210,176,220);
+  font-family: 'Nixie One', cursive, Helvetica;
+  font-weight: ; 
+  letter-spacing: 7px;
+  }
+
+
+ .buttoninfo{
   	position: absolute;
-  	top: 550px;
-  	left: 100px;
+  	top: 559px;
+  	left: 140px;
 
   }
 
 .buttonprice{
   	position: absolute;
-  	top: 550px;
-  	left: 852px;
+  	top: 559px;
+  	left: 390px;
 }
 
 .buttonphotos{
   	position: absolute;
-  	top: 550px;
-  	left: 459px;
+  	top: 559px;
+  	left: 640px;
 }
 
+.buttonlocation{
+    position: absolute;
+    top: 559px;
+    left: 870px;
 
+}
 
+.blue{
+background-color: rgb(222,240,249);
+}
+.purple{
+background-color: rgb(243,240,252);
+}
+.peach{
+background-color: rgb(252,217,217);
+}
+.green{
+background-color: rgb(211,234,217);
+}
 
 
