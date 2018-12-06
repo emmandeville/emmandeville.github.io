@@ -17,56 +17,28 @@ background-color: rgb(249,244,169);
 
 .titleone {
   position: absolute;
-  top: 210px;
-  left: 145px;
-  width: 800px;
-  line-height: 120px;
-  font-size: 120px;
+  top: 245px;
+  left: 75px;
+  font-size: 105px;
   color: rgb(255,255,255);
   font-family: 'Nixie One', cursive, Helvetica;
-  font-weight: 5px ; 
-  letter-spacing: 7px;
+  font-weight: 15px ; 
+  letter-spacing: 8px;
   }
 
-  .titletwo {
-  position: absolute;
-  top: 330px;
-  left: 500px;
-  width: 800px;
-  line-height: 120px;
-  font-size: 120px;
-  color: rgb(255,255,255);
-  font-family: 'Nixie One', cursive, Helvetica;
-  font-weight: ; 
-  letter-spacing: 7px;
-  }
 
-.titlethree {
+.titletwo {
   position: absolute;
-  top: 210px;
-  left: 150px;
-  width: 800px;
-  line-height: 120px;
-  font-size: 120px;
+  top: 245px;
+  left: 79px;
+  font-size: 105px;
   color: rgb(210,176,220);
   font-family: 'Nixie One', cursive, Helvetica;
-  font-weight: ; 
-  letter-spacing: 7px;
+  font-weight: 7 ; 
+  letter-spacing: 8px;
   }
 
-  .titlefour {
-  position: absolute;
-  top: 330px;
-  left: 506px;
-  width: 800px;
-  line-height: 120px;
-  font-size: 120px;
-  color: rgb(210,176,220);
-  font-family: 'Nixie One', cursive, Helvetica;
-  font-weight: ; 
-  letter-spacing: 7px;
-  }
-
+ 
 
  .buttoninfo{
   	position: absolute;
@@ -78,14 +50,9 @@ background-color: rgb(249,244,169);
 .buttonprice{
   	position: absolute;
   	top: 559px;
-  	left: 390px;
+  	left: 505px;
 }
 
-.buttonphotos{
-  	position: absolute;
-  	top: 559px;
-  	left: 640px;
-}
 
 .buttonlocation{
     position: absolute;
@@ -101,7 +68,7 @@ background-color: rgb(222,240,249);
 background-color: rgb(243,240,252);
 }
 .peach{
-background-color: rgb(252,217,217);
+background-color: rgb(248,217,217);
 }
 .green{
 background-color: rgb(211,234,217);
@@ -113,9 +80,351 @@ background-color: rgb(211,234,217);
   left: 0;
   width: 100vw;
   height:100vh;
-  background-image: url('locationbackground.png');
-  background-size: cover; 
+  background-color:rgb(211,234,217); 
 }
 
+.infobackground{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height:100vh;
+  background-color:rgb(222,240,249); 
+}
+
+.pricebackground{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height:100vh;
+  background-color:rgb(243,240,252); 
+}
+
+
+.map{
+	position: absolute;
+	top: 80px;
+	left: 630px;
+}
+
+.backbutton{
+	position: absolute;
+  	top: 600px;
+  	left: 45px;
+}
+
+.labellocation{
+	position: absolute;
+	left: 375px;
+	top:371px;
+	font-size: 40px;
+  	color: rgb(255,255,255);
+  	font-family: 'Nixie One', cursive, Helvetica;
+  	font-weight: bold;
+  	letter-spacing: 11px;
+}
+
+.labelinfo{
+	position: absolute;
+	left: 354px;
+	top:371px;
+	font-size: 40px;
+  	color: rgb(255,255,255);
+  	font-family: 'Nixie One', cursive, Helvetica;
+  	font-weight: bold;
+  	letter-spacing: 10px;
+}
+
+.labelprice{
+	position: absolute;
+	left: 455px;
+	top:370px;
+	font-size: 40px;
+  color: rgb(255,255,255);
+  font-family: 'Nixie One', cursive, Helvetica;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.dark{
+	opacity: 0;
+}
+
+.bright{
+	opacity: 1;
+}
+
+.brightpic{
+  opacity: .8;
+}
+
+.pinone{
+  position: absolute;
+  top: 270px;
+  left: 935px;
+}
+
+.pintwo{
+  position: absolute;
+  top: 240px;
+  left: 960px;
+}
+
+.pinthree{
+  position: absolute;
+  top: 260px;
+  left: 742px;
+}
+
+.pinfour{
+  position: absolute;
+  top: 275px;
+  left: 735px;
+}
+
+.pinfive{
+  position: absolute;
+  top: 240px;
+  left: 765px;
+}
+
+.pinsix{
+  position: absolute;
+  top: 272px;
+  left: 752px;
+}
+
+.pinseven{
+  position: absolute;
+  top: 218px;
+  left: 760px;
+}
+
+.pineight{
+  position: absolute;
+  top: 345px;
+  left: 767px;
+}
+
+.pinnine{
+  position: absolute;
+  top: 295px;
+  left: 735px;
+}
+
+.pinten{
+  position: absolute;
+  top: 320px;
+  left: 785px;
+}
+
+.pineleven{
+  position: absolute;
+  top: 470px;
+  left: 695px;
+}
+
+.eddieslabel{
+  position: absolute;
+  left:100px;
+  top:150px;
+  font-size: 30px;
+  color: purple;
+  font-family: 'Nixie One', cursive, Helvetica;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.eddiespic{
+  position: absolute;
+  left:100px;
+  top:200px;
+}
+
+.minalabel{
+  position: absolute;
+  left:100px;
+  top:125px;
+  font-size: 30px;
+  width: 400px;
+  color: purple;
+  font-family: 'Nixie One', cursive, Helvetica;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.minapic{
+  position: absolute;
+  left:100px;
+  top:200px;
+
+}
+
+.bigglabel{
+  position: absolute;
+  left:100px;
+  top:125px;
+  font-size: 30px;
+  width: 400px;
+  color: purple;
+  font-family: 'Nixie One', cursive, Helvetica;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.biggpic{
+  position: absolute;
+  left:100px;
+  top:200px;
+
+}
+
+.egglabel{
+  position: absolute;
+  left:100px;
+  top:125px;
+  font-size: 30px;
+  width: 400px;
+  color: purple;
+  font-family: 'Nixie One', cursive, Helvetica;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.eggpic{
+  position: absolute;
+  left:100px;
+  top:180px;
+}
+
+.tenlabel{
+  position: absolute;
+  left:100px;
+  top:125px;
+  font-size: 30px;
+  width: 400px;
+  color: purple;
+  font-family: 'Nixie One', cursive, Helvetica;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.tenpic{
+  position: absolute;
+  left:100px;
+  top:180px;
+}
+
+.icelabel{
+  position: absolute;
+  left:100px;
+  top:125px;
+  font-size: 30px;
+  width: 400px;
+  color: purple;
+  font-family: 'Nixie One', cursive, Helvetica;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.icepic{
+  position: absolute;
+  left:100px;
+  top:180px
+
+}
+
+.amorlabel{
+  position: absolute;
+  left:100px;
+  top:125px;
+  font-size: 30px;
+  width: 400px;
+  color: purple;
+  font-family: 'Nixie One', cursive, Helvetica;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.amorpic{
+  position: absolute;
+  left:100px;
+  top:180px;
+
+}
+
+.hilllabel{
+  position: absolute;
+  left:100px;
+  top:110px;
+  font-size: 30px;
+  width: 400px;
+  color: purple;
+  font-family: 'Nixie One', cursive, Helvetica;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.hillpic{
+  position: absolute;
+  left:100px;
+  top:185px;
+}
+
+.tailabel{
+  position: absolute;
+  left:100px;
+  top:130px;
+  font-size: 30px;
+  width: 400px;
+  color: purple;
+  font-family: 'Nixie One', cursive, Helvetica;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.taipic{
+  position: absolute;
+  left:100px;
+  top:185px;
+}
+
+.oddlabel{
+  position: absolute;
+  left:100px;
+  top:130px;
+  font-size: 30px;
+  width: 400px;
+  color: purple;
+  font-family: 'Nixie One', cursive, Helvetica;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.oddpic{
+  position: absolute;
+  left:100px;
+  top:210px;
+
+}
+
+.eggerlabel{
+  position: absolute;
+  left:100px;
+  top:125px;
+  font-size: 30px;
+  width: 400px;
+  color: purple;
+  font-family: 'Nixie One', cursive, Helvetica;
+  font-weight: bold;
+  letter-spacing: 10px;
+}
+
+.eggerpic{
+  position: absolute;
+  left:100px;
+  top:200px;
+}
 
 
