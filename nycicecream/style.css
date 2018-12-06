@@ -156,7 +156,7 @@ background-color: rgb(211,234,217);
 }
 
 .brightpic{
-  opacity: .8;
+  opacity: .7;
 }
 
 .pinone{
@@ -228,203 +228,227 @@ background-color: rgb(211,234,217);
 .eddieslabel{
   position: absolute;
   left:100px;
-  top:150px;
+  top:185px;
   font-size: 30px;
   color: purple;
   font-family: 'Nixie One', cursive, Helvetica;
   font-weight: bold;
-  letter-spacing: 10px;
+  letter-spacing: 7px;
 }
 
 .eddiespic{
   position: absolute;
   left:100px;
-  top:200px;
+  top:230px;
 }
 
 .minalabel{
   position: absolute;
   left:100px;
-  top:125px;
+  top:180px;
   font-size: 30px;
-  width: 400px;
+  width: 300px;
   color: purple;
   font-family: 'Nixie One', cursive, Helvetica;
   font-weight: bold;
-  letter-spacing: 10px;
+  letter-spacing: 7px;
 }
 
 .minapic{
   position: absolute;
   left:100px;
-  top:200px;
+  top:260px;
 
 }
 
 .bigglabel{
   position: absolute;
   left:100px;
-  top:125px;
+  top:185px;
   font-size: 30px;
   width: 400px;
   color: purple;
   font-family: 'Nixie One', cursive, Helvetica;
   font-weight: bold;
-  letter-spacing: 10px;
+  letter-spacing: 7px;
 }
 
 .biggpic{
   position: absolute;
   left:100px;
-  top:200px;
+  top:265px;
 
 }
 
 .egglabel{
   position: absolute;
   left:100px;
-  top:125px;
+  top:185px;
   font-size: 30px;
   width: 400px;
   color: purple;
   font-family: 'Nixie One', cursive, Helvetica;
   font-weight: bold;
-  letter-spacing: 10px;
+  letter-spacing: 7px;
 }
 
 .eggpic{
   position: absolute;
   left:100px;
-  top:180px;
+  top:235px;
 }
 
 .tenlabel{
   position: absolute;
   left:100px;
-  top:125px;
+  top:185px;
   font-size: 30px;
   width: 400px;
   color: purple;
   font-family: 'Nixie One', cursive, Helvetica;
   font-weight: bold;
-  letter-spacing: 10px;
+  letter-spacing: 7px;
 }
 
 .tenpic{
   position: absolute;
   left:100px;
-  top:180px;
+  top:230px;
 }
 
 .icelabel{
   position: absolute;
   left:100px;
-  top:125px;
+  top:185px;
   font-size: 30px;
   width: 400px;
   color: purple;
   font-family: 'Nixie One', cursive, Helvetica;
   font-weight: bold;
-  letter-spacing: 10px;
+  letter-spacing: 7px;
 }
 
 .icepic{
   position: absolute;
   left:100px;
-  top:180px
+  top:230px
 
 }
 
 .amorlabel{
   position: absolute;
   left:100px;
-  top:125px;
+  top:185px;
   font-size: 30px;
   width: 400px;
   color: purple;
   font-family: 'Nixie One', cursive, Helvetica;
   font-weight: bold;
-  letter-spacing: 10px;
+  letter-spacing: 7px;
 }
 
 .amorpic{
   position: absolute;
   left:100px;
-  top:180px;
+  top:240px;
 
 }
 
 .hilllabel{
   position: absolute;
   left:100px;
-  top:110px;
+  top:185px;
   font-size: 30px;
   width: 400px;
   color: purple;
   font-family: 'Nixie One', cursive, Helvetica;
   font-weight: bold;
-  letter-spacing: 10px;
+  letter-spacing: 7px;
 }
 
 .hillpic{
   position: absolute;
   left:100px;
-  top:185px;
+  top:265px;
 }
 
 .tailabel{
   position: absolute;
   left:100px;
-  top:130px;
+  top:185px;
   font-size: 30px;
   width: 400px;
   color: purple;
   font-family: 'Nixie One', cursive, Helvetica;
   font-weight: bold;
-  letter-spacing: 10px;
+  letter-spacing: 7px;
 }
 
 .taipic{
   position: absolute;
   left:100px;
-  top:185px;
+  top:230px;
 }
 
 .oddlabel{
   position: absolute;
   left:100px;
-  top:130px;
+  top:185px;
   font-size: 30px;
   width: 400px;
   color: purple;
   font-family: 'Nixie One', cursive, Helvetica;
   font-weight: bold;
-  letter-spacing: 10px;
+  letter-spacing: 7px;
 }
 
 .oddpic{
   position: absolute;
   left:100px;
-  top:210px;
+  top:265px;
 
 }
 
 .eggerlabel{
   position: absolute;
   left:100px;
-  top:125px;
+  top:185px;
   font-size: 30px;
-  width: 400px;
+  width: 300px;
   color: purple;
   font-family: 'Nixie One', cursive, Helvetica;
   font-weight: bold;
-  letter-spacing: 10px;
+  letter-spacing: 7px;
 }
 
 .eggerpic{
   position: absolute;
   left:100px;
-  top:200px;
+  top:265px;
 }
+
+.title{
+  position: absolute;
+  left:100px;
+  top:50px;
+  font-size: 50px;
+  color: rgb(255,255,255);
+  font-family: 'Nixie One', cursive, Helvetica;
+  font-weight: bold;
+  letter-spacing: 9px;
+}
+
+.coordinates{
+position: absolute;
+  left:100px;
+  top:110px;
+  font-size: 25px;
+  color: rgb(255,255,255);
+  font-family: 'Nixie One', cursive, Helvetica;
+  font-weight: bold;
+  letter-spacing: 11px;
+
+}
+
 
 
