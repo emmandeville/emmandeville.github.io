@@ -160,7 +160,7 @@ background-color: rgb(211,234,217);
 }
 
 .brightpic{
-  opacity: .7;
+  opacity: .8;
 }
 
 .pinone{
@@ -458,19 +458,140 @@ position: absolute;
   color: rgb(210,176,220);
 }
 
+.caption1{
+  position: absolute;
+  top: 150px;
+  left: 100px;
+  width: 170px;
+  font-size: 10px;
+  color: purple;
+  font-family:Helvetica;
+  letter-spacing: 1px;
+}
+
+.caption2{
+  position: absolute;
+  top: 150px;
+  left: 370px;
+  width: 190px;
+  font-size: 10px;
+  color: purple;
+  font-family:Helvetica;
+  letter-spacing: 1px;
+}
+
+.caption3{
+  position: absolute;
+  top: 150px;
+  left: 637px;
+  width: 190px;
+  font-size: 10px;
+  color: purple;
+  font-family:Helvetica;
+  letter-spacing: 1px;
+}
+
+.caption4{
+  position: absolute;
+  top: 150px;
+  left: 890px;
+  width: 190px;
+  font-size: 10px;
+  color: purple;
+  font-family:Helvetica;
+  letter-spacing: 1px;
+}
+
+.caption5{
+  position: absolute;
+  top: 450px;
+  left: 915px;
+  width: 170px;
+  font-size: 10px;
+  color: purple;
+  font-family:Helvetica;
+  letter-spacing: 1px;
+}
+
+.caption6{
+  position: absolute;
+  top: 460px;
+  left: 100px;
+  width: 170px;
+  font-size: 10px;
+  color: purple;
+  font-family:Helvetica;
+  letter-spacing: 1px;
+}
+
+.caption7{
+  position: absolute;
+  top: 460px;
+  left: 370px;
+  width: 170px;
+  font-size: 10px;
+  color: purple;
+  font-family:Helvetica;
+  letter-spacing: 1px;
+}
+
+.caption8{
+  position: absolute;
+  top: 460px;
+  left: 637px;
+  width: 170px;
+  font-size: 10px;
+  color: purple;
+  font-family:Helvetica;
+  letter-spacing: 1px;
+}
+
+.caption9{
+  position: absolute;
+  top: 320px;
+  left: 795px;
+  width: 160px;
+  font-size: 10px;
+  color: purple;
+  font-family:Helvetica;
+  letter-spacing: 1px;
+}
+
+.caption10{
+  position: absolute;
+  top: 320px;
+  left: 500px;
+  width: 170px;
+  font-size: 10px;
+  color: purple;
+  font-family:Helvetica;
+  letter-spacing: 1px;
+}
+
+.caption11{
+  position: absolute;
+  top: 320px;
+  left: 235px;
+  width: 170px;
+  font-size: 10px;
+  color: purple;
+  font-family:Helvetica;
+  letter-spacing: 1px;
+}
 
 .grid {
   position: relative;
   float: left;
   margin-bottom: 50px;
   margin-right: 120px;
+  opacity: .8;
   
 }
 
 
 .grid:hover{
   opacity: 0;
-  transition: all 500ms ease-in-out;
+  transition: all 400ms ease-in-out;
 
 } 
 

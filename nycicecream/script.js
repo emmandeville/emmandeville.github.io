@@ -92,4 +92,37 @@ $(document).ready(function() {
     $(".third").hover(function() {
     $(".milkshake").toggleClass("bright");
   });
+    $(".pic1").hover(function() {
+    $(".caption1").toggleClass("bright");
+  });
+    $(".pic2").hover(function() {
+    $(".caption2").toggleClass("bright");
+  });
+    $(".pic3").hover(function() {
+    $(".caption3").toggleClass("bright");
+  });
+    $(".pic4").hover(function() {
+    $(".caption4").toggleClass("bright");
+  });
+    $(".pic5").hover(function() {
+    $(".caption5").toggleClass("bright");
+  });
+    $(".pic6").hover(function() {
+    $(".caption6").toggleClass("bright");
+  });
+    $(".pic7").hover(function() {
+    $(".caption7").toggleClass("bright");
+  });
+    $(".pic8").hover(function() {
+    $(".caption8").toggleClass("bright");
+  });
+    $(".pic9").hover(function() {
+    $(".caption9").toggleClass("bright");
+  });
+    $(".pic10").hover(function() {
+    $(".caption10").toggleClass("bright");
+  });
+    $(".pic11").hover(function() {
+    $(".caption11").toggleClass("bright");
+  });
 }); 
