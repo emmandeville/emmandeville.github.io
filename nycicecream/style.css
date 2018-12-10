@@ -17,7 +17,7 @@ background-color: rgb(249,244,169);
 
 .titleone {
   position: absolute;
-  top: 245px;
+  top: 258px;
   left: 75px;
   font-size: 105px;
   color: rgb(255,255,255);
@@ -29,7 +29,7 @@ background-color: rgb(249,244,169);
 
 .titletwo {
   position: absolute;
-  top: 245px;
+  top: 258px;
   left: 79px;
   font-size: 105px;
   color: rgb(210,176,220);
@@ -119,9 +119,9 @@ background-color: rgb(211,234,217);
 
 .labellocation{
 	position: absolute;
-	left: 375px;
-	top:371px;
-	font-size: 40px;
+	left: 388px;
+	top:380px;
+	font-size: 37px;
   	color: rgb(255,255,255);
   	font-family: 'Nixie One', cursive, Helvetica;
   	font-weight: bold;
@@ -130,9 +130,9 @@ background-color: rgb(211,234,217);
 
 .labelinfo{
 	position: absolute;
-	left: 354px;
-	top:371px;
-	font-size: 40px;
+	left: 368px;
+	top:380px;
+	font-size: 37px;
   	color: rgb(255,255,255);
   	font-family: 'Nixie One', cursive, Helvetica;
   	font-weight: bold;
@@ -142,8 +142,8 @@ background-color: rgb(211,234,217);
 .labelprice{
 	position: absolute;
 	left: 455px;
-	top:370px;
-	font-size: 40px;
+	top:380px;
+	font-size: 37px;
   color: rgb(255,255,255);
   font-family: 'Nixie One', cursive, Helvetica;
   font-weight: bold;
@@ -434,9 +434,9 @@ background-color: rgb(211,234,217);
 .title{
   position: absolute;
   left:100px;
-  top:50px;
-  font-size: 50px;
-  color: rgb(255,255,255);
+  top:55px;
+  font-size: 40px;
+  color: rgb(210,176,220);
   font-family: 'Nixie One', cursive, Helvetica;
   font-weight: bold;
   letter-spacing: 9px;
@@ -445,7 +445,7 @@ background-color: rgb(211,234,217);
 .coordinates{
 position: absolute;
   left:100px;
-  top:110px;
+  top:105px;
   font-size: 25px;
   color: rgb(255,255,255);
   font-family: 'Nixie One', cursive, Helvetica;
@@ -591,7 +591,7 @@ position: absolute;
 
 .grid:hover{
   opacity: 0;
-  transition: all 400ms ease-in-out;
+  transition: all 300ms ease-in-out;
 
 } 
 
@@ -655,8 +655,8 @@ position: absolute;
 
 .first{
   position: absolute;
-  left:275px;
-  top:100px;
+  left:255px;
+  top:92px;
   font-size: 25px;
   color: rgb(255,255,255);
   font-family: 'Nixie One', cursive, Helvetica;
@@ -667,8 +667,8 @@ position: absolute;
 
 .second{
   position: absolute;
-  left:520px;
-  top:315px;
+  left:485px;
+  top:300px;
   font-size: 25px;
   color: rgb(255,255,255);
   font-family: 'Nixie One', cursive, Helvetica;
@@ -679,8 +679,8 @@ position: absolute;
 
 .third{
   position: absolute;
-  left:690px;
-  top:100px;
+  left:652px;
+  top:92px;
   font-size: 25px;
   color: rgb(255,255,255);
   font-family: 'Nixie One', cursive, Helvetica;
@@ -692,7 +692,7 @@ position: absolute;
 .onescoop{
   position: absolute;
   top: 10px;
-  left: 9px;
+  left: 7px;
 }
 
 .sundae{
