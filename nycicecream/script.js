@@ -2,10 +2,10 @@ $(document).ready(function() {
   $(".buttoninfo").hover(function() {
     $("body").toggleClass("blue");
   });
-  $(".buttonprice").hover(function() {
+  	$(".buttonprice").hover(function() {
     $("body").toggleClass("peach");
   });
-  $(".buttonlocation").hover(function() {
+  	$(".buttonlocation").hover(function() {
     $("body").toggleClass("green");
   });
     $(".buttonlocation").hover(function() {
@@ -82,5 +82,14 @@ $(document).ready(function() {
   });
     $(".pineleven").hover(function() {
     $(".eggerlabel").toggleClass("bright");
-});
-});
+  });
+ 	  $(".first").hover(function() {
+    $(".onescoop").toggleClass("bright");
+  });
+    $(".second").hover(function() {
+    $(".sundae").toggleClass("bright");
+  });
+    $(".third").hover(function() {
+    $(".milkshake").toggleClass("bright");
+  });
+}); 
