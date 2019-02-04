@@ -122,3 +122,11 @@ a {
 	width: 75vw;
 
 }
+
+.line{
+	color: black;
+	font-family: adelle, serif;
+	font-style: bold;
+	font-weight: 600;
+	font-size: 22px;
+}
