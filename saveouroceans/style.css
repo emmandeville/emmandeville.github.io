@@ -29,7 +29,7 @@ h1{
 	padding-bottom: 15px;
 	padding-left: 20px;
 	margin-left:-1vw;
-	width:78vw;
+	width:76vw;
 	margin-top: -15vw;
 	text-align: center;
 	
@@ -66,7 +66,7 @@ h3{
 p{
 	color:rgb(38,38,40);
 	line-height: 21px;
-	font-size: 15px;
+	font-size: 16.5px;
 	font-family: myriad-pro, sans-serif;
 	font-weight: 300;
 	font-style: normal;
@@ -124,9 +124,8 @@ a {
 }
 
 .pullquote{
-	font-family: 'Playfair Display', serif;
-	font-style: bold;
-	font-weight: 800;
+	font-family: 'Fauna One', serif;
+	color:rgb(21,48,86);
 	font-size: 22px;
 	line-height: 28px;
 	color:rgb(21,48,86);
@@ -153,16 +152,17 @@ a {
 
 .right{
 	position: fixed;
-	top: 620px;
+	top: 0px;
 	width: 40px;
-	left: 345px;
+	left: 355px;
+
 }
 
 .left{
 	position: fixed;
-	top: 620px;
+	top: 0px;
 	width: 40px;
-	left: 35px;
+	left: 355px;
 }
 
 .plastic{
