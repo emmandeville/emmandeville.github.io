@@ -19,7 +19,7 @@ img{
 
 h1{
 	font-family: 'Fauna One', serif;
-	font-size: 27px;
+	font-size: 28px;
 	line-height: 32px;
 	color:rgb(21,48,86);
 
@@ -28,10 +28,9 @@ h1{
 	padding-top: 15px;
 	padding-bottom: 15px;
 	padding-left: 20px;
-	margin-left:-1vw;
+	margin-left:-6vw;
 	width:76vw;
-	margin-top: -15vw;
-	text-align: center;
+	margin-top:0vw;
 	
 }
 
@@ -43,18 +42,18 @@ h1{
 
 h2{
 	
-	font-family: myriad-pro, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	font-style: normal;
 	font-size: 15px;
 	color:rgb(38,38,40);
-	margin-left:31vw;
 	margin-top: 24vw;
+	margin-left: -.5vw;
 
 }
 
 h3{
-	font-family: myriad-pro, sans-serif;
+	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	font-style: normal;
 	font-size: 13px;
@@ -66,12 +65,12 @@ h3{
 
 p{
 	color:rgb(38,38,40);
-	line-height: 23px;
+	line-height: 24px;
 	font-size: 16.5px;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 200;
-	width: 83vw;
-	margin-left: 13px;
+	width: 80vw;
+	margin-left: 3vw;
 }
 
 .endnote{
@@ -130,7 +129,7 @@ a {
 	line-height: 28px;
 	color:rgb(21,48,86);
 	width: 75vw;
-	margin-left: 2vw;
+	margin-left: -.5vw;
 
 }
 
@@ -154,7 +153,7 @@ a {
 	position: fixed;
 	top: 0px;
 	width: 40px;
-	left: 355px;
+	left: 320px;
 
 }
 
@@ -162,17 +161,6 @@ a {
 	position: fixed;
 	top: 0px;
 	width: 40px;
-	left: 355px;
+	left: 320px;
 }
 
-.plastic{
-	margin-left: 23vw;
-}
-
-.warm{
-	margin-left: 27vw;
-}
-
-.wave{
-	margin-left: 24vw;
-}
