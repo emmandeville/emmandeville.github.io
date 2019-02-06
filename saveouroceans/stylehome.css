@@ -1,0 +1,77 @@
+
+html, body {
+  margin:0px;
+  padding:0px;
+}
+
+body{
+	margin:auto;
+	width: 88vw;
+}
+
+img{
+	width:100vw;
+	margin-left:-6vw;
+	margin-top: 
+}
+
+h1{
+	font-family: 'Fauna One', serif;
+	font-size: 27px;
+	color:rgb(21,48,86);
+	font-style: bold;
+	margin-left:20vw;
+	width:87vw;
+	margin-top:0vw;
+
+}
+
+h2{
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-style: bold;
+	font-size: 18px;
+	color:rgb(38,38,40);
+	margin-left: 17px;
+	text-align: center;
+	width: 80vw;
+	padding-bottom: 15px;
+
+}
+
+.issues{
+	font-family: 'Fauna One', serif;
+	font-size: 27px;
+	color: white;
+	background-color:rgb(21,48,86);
+	font-style: bold;
+	width:87vw;
+	margin-top:0vw;
+	margin-left: -6vw;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 2px;
+	padding-left: 120px;
+
+
+}
+
+.click{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-style: bold;
+	font-size: 15px;
+	color:rgb(161,161,178);
+	background-color:rgb(21,48,86);
+	font-style: bold;
+	width:87vw;
+	margin-top:-5vw;
+	margin-left: -6vw;
+	padding-right: 10px;
+	padding-top: 2px;
+	padding-bottom: 20px;
+	padding-left: 112px;
+
+
+}
