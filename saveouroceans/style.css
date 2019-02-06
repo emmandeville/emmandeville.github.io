@@ -19,8 +19,8 @@ img{
 
 h1{
 	font-family: 'Fauna One', serif;
-	font-size: 28px;
-	line-height: 32px;
+	font-size: 27px;
+	line-height: 34px;
 	color:rgb(21,48,86);
 
 	/*background-color: rgb(38,38,40); */
@@ -74,51 +74,49 @@ p{
 }
 
 .endnote{
-	font-family: adelle, serif;
-	font-style: normal;
-	font-weight: 500;
+	font-family: 'Fauna One', serif;
+	color:rgb(21,48,86);
 	font-size: 25px;
 	line-height: 32px;
 	width: 76vw;
-	color: white ;
-	background-color: rgb(38,38,40);
-	padding-top: 20px;
-	padding-bottom: 20px;
-	padding-left: 20px;
-	margin-left:-7vw;
+	margin-left:-1vw;
+	font-weight: bold;
 }
 
 
-.seemore{
-	color: white;
-	background-color: rgb(21,48,86);
-	padding-top: 24px;
-	padding-bottom: 24px;
-	padding-left: 24px;
-	padding-right: 59px;
-	width: 77vw;
+.link{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 17px;
+	color:rgb(38,38,40);
+	line-height: 24px;
+	margin-left: -.5vw;
+	margin-top: -3vw;
+	width: 79vw;
+
 }
 
 .up{
 	margin-top: -12vw;
 }
 
-.link{
-	color: white;
-	background-color: rgb(38,38,40);
-	padding-top: 24px;
-	padding-bottom: 24px;
-	padding-left: 24px;
-	padding-right: 24px;
-	font-size: 20px;
-	margin-left: -7vw;
-	width: 76vw;
+.seemore{
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	font-style: normal;
+	font-size: 17px;
+	color:rgb(38,38,40);
 	line-height: 24px;
+	margin-left: 3vw;
+	margin-top: -3vw;
+	width:70vw;
+
 
 }
 
 a {
-  color: white;
+  color:rgb(38,38,40);
   text-decoration: none;
 }
 
@@ -151,16 +149,20 @@ a {
 
 .right{
 	position: fixed;
-	top: 0px;
 	width: 40px;
-	left: 320px;
+	right: 0px;
+	bottom: 0px;
 
 }
 
 .left{
 	position: fixed;
-	top: 0px;
 	width: 40px;
-	left: 320px;
+	left: 24px;
+	bottom: 0px;
+}
+
+.ending{
+	width: 100vw;
 }
 
