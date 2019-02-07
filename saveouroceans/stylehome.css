@@ -20,7 +20,7 @@ h1{
 	font-size: 27px;
 	color:rgb(21,48,86);
 	font-style: bold;
-	margin-left:20vw;
+	margin-left:19vw;
 	width:87vw;
 	margin-top:0vw;
 
@@ -73,5 +73,61 @@ h2{
 	padding-bottom: 20px;
 	padding-left: 112px;
 
+}
 
+.fact{
+	margin-top: 30vw;
+	color: rgb(21,48,86);
+}
+
+.icon1{
+	width: 120px;
+	margin-left: 27vw;
+}
+
+.one{
+	margin-top: -5vw;
+}
+
+.icon2{
+	width: 120px;
+	margin-left: 27vw;
+}
+
+.two{
+	margin-top: -5vw;
+}
+
+.icon3{
+	width: 115px;
+	margin-left: 27vw;
+}
+
+.three{
+	margin-top: -5vw;
+}
+
+.help{
+	font-family: 'Fauna One', serif;
+	font-size: 27px;
+	color: white;
+	background-color:rgb(21,48,86);
+	font-style: bold;
+	width:87vw;
+	margin-left: -6vw;
+	padding-right: 10px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	padding-left: 55px;
+
+}
+
+a{
+	color: rgb(21,48,86);
+	text-decoration: none;
+
+}
+
+.down{
+	margin-top: 5vw;
 }
