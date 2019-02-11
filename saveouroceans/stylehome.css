@@ -101,11 +101,31 @@ h2{
 
 .icon3{
 	width: 115px;
+	margin-left: 28vw;
+	margin-top: -3vw;
+}
+
+.icon4{
+	width: 128px;
 	margin-left: 27vw;
 }
 
+.icon5{
+	width: 155px;
+	margin-left: 23vw;
+	margin-top: -8vw;
+}
+
 .three{
+	margin-top: -3vw;
+}
+
+.four{
 	margin-top: -5vw;
+}
+
+.five{
+	margin-top: -10vw;
 }
 
 .help{
@@ -132,3 +152,4 @@ a{
 .down{
 	margin-top: 5vw;
 }
+
