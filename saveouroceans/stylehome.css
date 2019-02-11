@@ -21,7 +21,7 @@ h1{
 	font-size: 27px;
 	color:rgb(21,48,86);
 	font-style: bold;
-	margin-left:19vw;
+	margin-left:19.5vw;
 	width:87vw;
 	margin-top:0vw;
 
@@ -52,7 +52,7 @@ h2{
 	margin-left: -6vw;
 	padding-right: 10px;
 	padding-top: 20px;
-	padding-bottom: 2px;
+	padding-bottom: 4px;
 	padding-left: 120px;
 
 
@@ -70,7 +70,7 @@ h2{
 	margin-top:-5vw;
 	margin-left: -6vw;
 	padding-right: 10px;
-	padding-top: 2px;
+	padding-top: 3px;
 	padding-bottom: 20px;
 	padding-left: 112px;
 
@@ -134,12 +134,12 @@ h2{
 	color: white;
 	background-color:rgb(21,48,86);
 	font-style: bold;
-	width:87vw;
+	width:95vw;
 	margin-left: -6vw;
 	padding-right: 10px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	padding-left: 55px;
+	padding-left: 50px;
 
 }
 
