@@ -144,7 +144,7 @@ h2{
 	padding-right: 10px;
 	padding-top: 20px;
 	padding-bottom: 20px;
-	padding-left: 50px;
+	padding-left: 105px;
 
 }
 
@@ -157,4 +157,9 @@ a{
 .down{
 	margin-top: 5vw;
 }
-
+.left{
+	position: fixed;
+	width: 40px;
+	left: 24px;
+	bottom: 0px;
+}
