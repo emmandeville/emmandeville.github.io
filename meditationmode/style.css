@@ -1,12 +1,64 @@
 body{
 	margin:auto;
-	width: 88vw;
 	max-width: 500px;
 	background-color: rgb(185,212,240);
+	animation-name: backchange;
+	animation-duration: 10s;
+	animation-delay: 3s;
+	animation-iteration-count:infinite;
+
 }
 
 
 img{ 
-	width:90vw;
-	margin-top: 45vw;
+	position: absolute;
+	left:0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	margin: auto;
+	width:40vw;
+	margin-top: 25vw;
+	animation-name: breathe;
+	animation-duration: 10s;
+	animation-delay: 3s;
+	animation-iteration-count:infinite;
+}
+
+
+
+@keyframes breathe{
+	0%{
+		transform: rotate(0deg) scale(1);
+		
+	}
+
+	40%{
+		transform: rotate(180deg) scale(2);
+	}
+
+	50%{
+		transform: rotate(180deg) scale(2);
+	}
+
+	100%{
+		transform: rotate(0deg) scale(1);
+	
+	}
+}
+
+@keyframes backchange{
+	0%{
+			background-color: rgb(185,212,240);
+	}
+
+
+	55%{
+			background-color: rgb(250,209,255);
+	}
+
+	100%{
+			background-color: rgb(185,212,240);
+	}
+
 }
