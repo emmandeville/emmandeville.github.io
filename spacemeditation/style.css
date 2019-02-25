@@ -1,0 +1,136 @@
+body{
+	margin:auto;
+	max-width: 500px;
+
+}
+
+.background{
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 120vw;
+}
+
+.mars{
+	position: absolute;
+	width: 40vw;
+	top: 15vw;
+	left:10vw;
+	animation-name: rotate;
+	animation-iteration-count: infinite;
+	animation-delay: 0;
+	animation-duration: 10s;
+}
+
+.saturn{
+	position: absolute;
+	width: 35vw;
+	top: 90vw;
+	left:34vw;
+	animation-name: emphasize;
+	animation-iteration-count: infinite;
+	animation-delay: 0;
+	animation-duration: 10s;
+}
+
+.blue{
+	position: absolute;
+	width: 40vw;
+	top: 160vw;
+	left:50vw;
+	animation-name: rotate;
+	animation-iteration-count: infinite;
+	animation-delay: 0;
+	animation-duration: 10s;
+}
+
+.onoff{
+	position: absolute;
+	top: 90px;
+	left:20px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 80vw;
+	animation-name: stars;
+	animation-iteration-count: infinite;
+	animation-delay:0;
+	animation-duration:60s;
+}
+
+.rocket{
+	position: absolute;
+	top: 150vw;
+	left:-40vw;
+	width: 35vw;
+	transform: rotate(80deg);
+	animation-name: rocketing ;
+	animation-iteration-count: infinite;
+	animation-delay:0s;
+	animation-duration:60s;
+}
+
+@keyframes rotate {
+	0%{
+		transform: rotate(0deg);
+		
+	}
+
+	50%{
+		transform: rotate(360deg);
+	}
+
+
+	100%{
+		transform: rotate(0deg);
+	
+	}
+}
+
+@keyframes emphasize {
+	0%{
+		transform: scale(1) ;
+		
+	}
+
+	50%{
+		transform: scale(2);
+	}
+
+
+	100%{
+		transform: scale(1);
+	
+	}
+}
+
+@keyframes stars{
+	0%{
+		opacity: 0 ;
+		
+	}
+
+	75%{
+		opacity: 0;
+	}
+
+
+	100%{
+		opacity:75%;
+	
+	}
+}
+
+@keyframes rocketing{
+	0%{
+		left:px;
+	}
+
+	50%{
+		left:400px;
+		top: -800px;
+	}
+
+	100%{
+		left:-40vw;
+	}
+
+}
