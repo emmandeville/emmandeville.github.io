@@ -113,7 +113,7 @@ body{
 .launch {
 	position: absolute;
 	top: 180vw;
-	left:0vw;
+	left:-40vw;
 	width: 110vw;
 }
 
@@ -121,7 +121,7 @@ body{
 	animation-name: blastoff ;
 	animation-iteration-count: infinite;
 	animation-delay: 20;
-	animation-duration: 12s;
+	animation-duration: 10s;
 }
 
 .off{
@@ -236,8 +236,9 @@ body{
 
 	100%{
 		width:110vw;
-		top: 200vw;
+		top: 220vw;
 		left:0vw;
+		transform: rotate(-200deg);
 	}
 
 }
