@@ -7,7 +7,11 @@ body{
 .background{
 	background-position: center;
 	background-repeat: no-repeat;
-	width: 120vw;
+	width: 170vw;
+}
+
+.back.alarming{
+	opacity: .75;
 }
 
 .mars{
@@ -18,14 +22,14 @@ body{
 	animation-name: rotateback;
 	animation-iteration-count: infinite;
 	animation-delay: 0;
-	animation-duration: 20s;
+	animation-duration: 30s;
 }
 
 .saturn{
 	position: absolute;
-	width: 35vw;
-	top: 90vw;
-	left:34vw;
+	width: 37vw;
+	top: 94vw;
+	left:33vw;
 	animation-name: emphasize;
 	animation-iteration-count: infinite;
 	animation-delay: 0;
@@ -35,25 +39,40 @@ body{
 .blue{
 	position: absolute;
 	width: 40vw;
-	top: 150vw;
+	top: 160vw;
 	left:50vw;
 	animation-name: rotate;
 	animation-iteration-count: infinite;
 	animation-delay: 0;
-	animation-duration: 10s;
+	animation-duration: 5s;
 }
 
-.onoff{
+.starshigh{
 	position: absolute;
-	top: 120px;
-	left:20px;
+	top: 100px;
+	left:100px;
 	background-position: center;
 	background-repeat: no-repeat;
 	width: 80vw;
-	animation-name: stars;
+	animation-name: stars ;
 	animation-iteration-count: infinite;
 	animation-delay:0;
 	animation-duration:30s;
+	opacity: .7;
+}
+
+.starslow{
+	position: absolute;
+	top: 480px;
+	left:-50px;
+	background-position: center;
+	background-repeat: no-repeat;
+	width: 80vw;
+	animation-name: stars ;
+	animation-iteration-count: infinite;
+	animation-delay:0;
+	animation-duration:20s;
+	opacity: .7;
 }
 
 .rocket{
@@ -64,17 +83,17 @@ body{
 	transform: rotate(80deg);
 	animation-name: rocketing ;
 	animation-iteration-count: infinite;
-	animation-delay:0s;
+	animation-delay:3s;
 	animation-duration:60s;
 }
 
 .button {
   position: absolute;
-  left:60vw;
+  left:48vw;
   top:5vw;
   background-color: rgb(200,200,200);
-  border-radius: 50px;
-  width: 120px;
+  border-radius: 40px;
+  width: 150px;
   height: 50px;
   margin: 18px auto;  
   line-height: 50px;
@@ -91,21 +110,34 @@ body{
   animation-name: pulse ;
 }
 
+.launch {
+	position: absolute;
+	top: 180vw;
+	left:0vw;
+	width: 110vw;
+}
+
+.launch.alarming {
+	animation-name: blastoff ;
+	animation-iteration-count: infinite;
+	animation-delay: 20;
+	animation-duration: 12s;
+}
+
+.off{
+	opacity: 0;
+}
+
 @keyframes rotate {
 	0%{
 		transform: rotate(0deg);
 		
 	}
 
-	50%{
+	100%{
 		transform: rotate(360deg);
 	}
 
-
-	100%{
-		transform: rotate(0deg);
-	
-	}
 }
 
 @keyframes rotateback {
@@ -141,7 +173,6 @@ body{
 
 
 
-
 @keyframes stars{
 	0%{
 		opacity: 0 ;
@@ -151,7 +182,6 @@ body{
 	75%{
 		opacity: 0;
 	}
-
 
 	100%{
 		opacity:75%;
@@ -178,12 +208,37 @@ body{
 
 @keyframes pulse {
   0% {
-    opacity: 1;
+    opacity: 2;
   }
   50% {
     opacity: 0;
   }
   100% {
-    opacity: 1;
+    opacity: 2;
   }
 }
+
+@keyframes blastoff {
+	0%{
+		width:110vw;
+		top: 180vw;
+		left:0vw;
+		transform: rotate(0deg);
+	}
+
+
+	50%{
+		width: 200vw;
+		top: -400vw;
+		left:0vw;
+		transform: rotate(0deg);
+	}
+
+	100%{
+		width:110vw;
+		top: 200vw;
+		left:0vw;
+	}
+
+}
+
