@@ -11,7 +11,8 @@ body{
 }
 
 .back.alarming{
-	opacity: .75;
+	opacity: .3;
+
 }
 
 .mars{
@@ -21,8 +22,9 @@ body{
 	left:10vw;
 	animation-name: rotateback;
 	animation-iteration-count: infinite;
+	animation-timing-function: linear;
 	animation-delay: 0;
-	animation-duration: 30s;
+	animation-duration: 25s;
 }
 
 .saturn{
@@ -33,7 +35,7 @@ body{
 	animation-name: emphasize;
 	animation-iteration-count: infinite;
 	animation-delay: 0;
-	animation-duration: 15s;
+	animation-duration: 12s;
 }
 
 .blue{
@@ -42,6 +44,7 @@ body{
 	top: 160vw;
 	left:50vw;
 	animation-name: rotate;
+	animation-timing-function: linear;
 	animation-iteration-count: infinite;
 	animation-delay: 0;
 	animation-duration: 5s;
@@ -77,23 +80,23 @@ body{
 
 .rocket{
 	position: absolute;
-	top: 150vw;
-	left:-40vw;
+	top: 250vw;
+	left:0vw;
 	width: 35vw;
-	transform: rotate(80deg);
+	transform: rotate(75deg);
 	animation-name: rocketing ;
 	animation-iteration-count: infinite;
-	animation-delay:3s;
+	animation-delay:0s;
 	animation-duration:60s;
 }
 
 .button {
   position: absolute;
-  left:48vw;
-  top:5vw;
+  left:22vw;
+  top:180vw;
   background-color: rgb(200,200,200);
-  border-radius: 40px;
-  width: 150px;
+  border-radius: 20px;
+  width: 200px;
   height: 50px;
   margin: 18px auto;  
   line-height: 50px;
@@ -107,9 +110,28 @@ body{
 .button.alarming {
   background-color: rgb(255,20,40);
   color: white;
-  animation-name: pulse ;
+  opacity: 1;
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;  
 }
 
+.alert {
+  position: absolute;
+  left:16vw;
+  top:15vw;
+  width: 250px;
+  margin: 18px auto;  
+  cursor: pointer;
+  transition: all 300ms ease-in-out;
+}
+
+.alert.alarming {
+  opacity: 1;
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;  
+}
 .launch {
 	position: absolute;
 	top: 180vw;
@@ -120,8 +142,8 @@ body{
 .launch.alarming {
 	animation-name: blastoff ;
 	animation-iteration-count: infinite;
-	animation-delay: 20;
-	animation-duration: 10s;
+	animation-delay: 0;
+	animation-duration: 20s;
 }
 
 .off{
@@ -195,12 +217,12 @@ body{
 	}
 
 	50%{
-		left:400px;
+		left:700px;
 		top: -800px;
 	}
 
 	100%{
-		left:-40vw;
+		left:-80vw;
 		transform: rotate(270deg);
 	}
 
@@ -208,38 +230,48 @@ body{
 
 @keyframes pulse {
   0% {
-    opacity: 2;
+    opacity: 1;
   }
+
   50% {
     opacity: 0;
   }
+
   100% {
-    opacity: 2;
+    opacity: 1;
   }
 }
 
 @keyframes blastoff {
 	0%{
-		width:110vw;
-		top: 180vw;
-		left:0vw;
-		transform: rotate(0deg);
-	}
+	top: 180vw;
+	left:-20vw;
+	width: 110vw;  }
 
+	25%{
+	top: -400vw;
+	left:50vw;
+	width: 200vw;
+	transform: rotate(20deg);  }
 
 	50%{
-		width: 200vw;
-		top: -400vw;
-		left:0vw;
-		transform: rotate(0deg);
-	}
+	top: 300vw;
+	left:-20vw;
+	width: 200vw;
+	transform: rotate(-200deg);  }
+
+	75%{
+	top: -400vw;
+	left:-50vw;
+	width: 150vw;
+	transform: rotate(0deg);  }
 
 	100%{
-		width:110vw;
-		top: 220vw;
-		left:0vw;
-		transform: rotate(-200deg);
-	}
+	top: 400vw;
+	left:-40vw;
+	width: 110vw;
+	transform: rotate(180deg);  }
 
+	
 }
 
