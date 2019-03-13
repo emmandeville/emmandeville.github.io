@@ -4,7 +4,6 @@ $(document).ready(function() {
     $(".launch").removeClass("off");
     $(".alert").removeClass("off");
     $(".launch").addClass("alarming"); 
-    $(".button").addClass("alarming");
     $(".rocket").addClass("off");
     $(".back").addClass("alarming");
     $(".alert").addClass("alarming");
@@ -13,7 +12,6 @@ $(document).ready(function() {
 
   $(".button").click(function() { 
     $(".launch").removeClass("alarming");
-    $(".button").removeClass("alarming");
     $(".alert").removeClass("alarming");
     $(".back").removeClass("alarming");
     $(".launch").addClass("off");
@@ -27,11 +25,12 @@ $(document).ready(function() {
     $(".launch").removeClass("off");
     $(".alert").removeClass("off");
     $(".launch").addClass("alarming"); 
-    $(".button").addClass("alarming");
     $(".rocket").addClass("off");
     $(".back").addClass("alarming");
     $(".alert").addClass("alarming");
+    $("audio").get(0).play();
   }, 30000);
+
   });
 
 });
