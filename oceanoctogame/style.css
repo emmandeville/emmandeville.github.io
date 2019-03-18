@@ -72,7 +72,7 @@ body {
 .hero.walking {
   background-image: url("./img/walking-sprite.png");
   animation-name: spriteSheet;
-  animation-duration: 300ms;
+  animation-duration: 700ms;
   animation-timing-function: steps(4); /* number of frames in sprite (not counting the final blank space) */
 }
 

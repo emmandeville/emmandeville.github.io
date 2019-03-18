@@ -1,4 +1,4 @@
 document.addEventListener("DOMContentLoaded", function () {
   var mugen = new MUGEN();
-  mugen.initialize();
+  mugen.initialize({makeResponsive: true, heroSpeed: 300});
 });
