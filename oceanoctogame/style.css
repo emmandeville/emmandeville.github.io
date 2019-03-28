@@ -108,7 +108,7 @@ body {
 .hero.attacking {
   background-image: url("./img/attacking-sprite.png");
   animation-name: spriteSheet;
-  animation-duration: 650ms;  /* set to same number in initialize() as well or it will look weird */
+  animation-duration: 500ms;  /* set to same number in initialize() as well or it will look weird */
   animation-timing-function: steps(6); /* number of frames in sprite (not counting the final blank space) */
 }
 
@@ -122,15 +122,16 @@ body {
   animation-name: spriteSheet;
   animation-duration: 500ms;
   animation-timing-function: steps(2); /* number of frames in sprite (not counting the final blank space) */
-  animation-iteration-count: infinite;  
-  transition-property: right;
-  transition-timing-function: linear;
+  animation-iteration-count: infinite;
   pointer-events: none;
+  opacity: 1;
 }
 
 .monster.was-hit {
 	background-image: url("./img/deadfish.png");
 	animation-timing-function: steps(1);
+	bottom: 600px !important;
+	transition: bottom 2000ms linear;
 
 }
 
