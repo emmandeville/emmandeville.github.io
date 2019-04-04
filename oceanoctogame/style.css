@@ -24,10 +24,10 @@ body {
   left: 0; right: 0; bottom: 34px;
   margin: 0 auto;
   line-height: 30px;
-  font-size: 16px;
+  letter-spacing: 2px;
+  font-size: 18px;
   text-align: center;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
+  font-family: 'Luckiest Guy', cursive, Arial, sans-serif;
   color: white;
   opacity: 0;
   z-index: 10;
@@ -41,18 +41,18 @@ body {
 
 .score {
   position: absolute;
-  top: 20px;
-  right: 20px;
-  width: 75px;
-  height: 75px;
-  line-height: 75px;
+  top: 9px;
+  right: 15px;
+  width: 100px;
+  height: 100px;
+  line-height: 103px;
   background-image: url("./img/shell.png");
   background-size: contain;
   background-repeat: no-repeat;
   color: white;
-  font-family: Helvetica, Arial, sans-serif;
-  font-weight: bold;
-  font-size: 22px;
+  font-family: 'Luckiest Guy', cursive, Arial, sans-serif;
+  font-size: 31px;
+  letter-spacing: 1px;
   text-align: center;
 }
 
@@ -70,7 +70,7 @@ body {
 
 .hero {
   position: absolute;
-  bottom: 40px;
+  bottom: 43px;
   left: 400px;
   width: 300px;
   height: 300px;
@@ -114,8 +114,8 @@ body {
 
 .monster {
   position: absolute;
-  width: 170px;
-  height: 170px;
+  width: 188px;
+  height: 188px;
   bottom: 350px;
   background-image: url("./img/monster-sprite.png");
   background-size: cover;
@@ -129,9 +129,9 @@ body {
 
 .monster.was-hit {
 	background-image: url("./img/deadfish.png");
-	animation-timing-function: steps(1);
+	animation-timing-function: steps(3);
 	bottom: 600px !important;
-	transition: bottom 2000ms linear;
+	transition: bottom 3000ms linear;
 
 }
 
