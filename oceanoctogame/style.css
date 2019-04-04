@@ -68,6 +68,10 @@ body {
   pointer-events: none;
 }
 
+.background.special{
+  background-image: url("./img/alarmbackground.png");
+}
+
 .hero {
   position: absolute;
   bottom: 43px;
